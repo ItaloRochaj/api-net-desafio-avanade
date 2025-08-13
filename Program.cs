@@ -16,7 +16,7 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo 
     { 
-        Title = "Board de Tarefas API", 
+        Title = "Board de Tarefas API",  
         Version = "v1"
     });
 });
